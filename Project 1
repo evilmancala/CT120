@@ -1,10 +1,10 @@
 https://editor.p5js.org/evilmancala/sketches/2IgSbIXWr
 
-*/ As you work, keep the following in mind (these will be discussion topics next week):
+/* As you work, keep the following in mind (these will be discussion topics next week):
 
 How did it feel to work with code you haven’t touched in weeks?
 I do not want to talk about it. But I mean I managed.
 What changes did you make and why?
 I killed the sparkle background because I felt it was too static. Had to look up background effects to add a little something extra. Found the randomized text so I went along with that.
 Now it is a very distracting clock.
-/*
+*/

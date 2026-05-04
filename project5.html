@@ -1,21 +1,19 @@
-setCps(120/22.5/8)
+setCps(120/22.5/8) //sets cycles per second
 $: s("sbd!4*2")._scope().color("gray")
 
-// now i need a couple extra things so I go through the references
+// now i need a couple extra things so I go through the references. THIS IS THE BEEPING ONE
 $extras: freq("444 <655 <233 141>>".fast(4)).s("square").add(50).orbit(.1)._spiral().color("blue")
 
-
-
 $: sound("sine!20").seg(8).n(irand(5)).scale("A1: minor")._scope().color("pink")
-  
+
 $: s("breaks/2").n("0").fit()
    .scrub(irand(16).div(16).seg(8)
     .rib("<4 20>",1)
          ).almostNever(ply("2 | 4"))
         .orbit(2).distort("2:1.5")._scope().color("magenta")
+  // NOT EVEN SURE YOU CAN HEAR THIS BUT I WANTED ONE MORE PART...
 $: s("square:100").fit()
    .scrub(irand(16).div(16).seg(8)).ir("grains:.1").cut(1).orbit(100)
           ._scope().color("crimson")
-Project 5: 🌞🖥️
 
-Due soon - 2 hours left
+// THIS IS VERY PANIC INDUCING. PERFECT FOR WHEN YOU NEED TO RUSH (COUGH COUGH)

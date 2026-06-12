@@ -1,0 +1,54 @@
+@font-face {
+  font-family: moji;
+  src: url(NicoMoji-Regular.ttf); 
+}
+
+html {
+    cursor: url("evil.svg") 2 2, cell;
+    background-image: url(backroom.jpg);
+}
+
+.bottom {
+    position: fixed;
+    width: 1500px;
+    top: 250px;
+}
+
+/* red button */
+.red {background-color: red; color: blanchedalmond; outline: none; border: none;
+    height: 1000px; width: 200px; height: 50px; font-size: 32px; font-family: Moji;
+box-shadow: 0 9px brown;
+ cursor: pointer;  left: 400px; bottom: 60px; position: fixed; z-index: 1;}
+
+.red:hover {background-color:red}
+
+.red:active {
+  background-color: red;
+  box-shadow: 0 5px brown;
+  transform: translateY(5px);
+ 
+}
+
+/* blue button */
+.blue {background-color: dodgerblue; color: blanchedalmond; outline: none; border: none;
+    height: 50px; width: 200px; height: 50px; font-size: 32px; font-family: Moji;
+box-shadow: 0 9px royalblue;  cursor: pointer;  left: 900px; bottom: 60px; 
+position: fixed; z-index: 1;}
+
+.blue:hover {background-color:dodgerblue}
+
+.blue:active {
+  background-color: dodgerblue;
+  box-shadow: 0 5px royalblue;
+  transform: translateY(5px);
+}
+
+.textbox {
+   background: whitesmoke;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 100px;
+   height: 100px;
+}
+
